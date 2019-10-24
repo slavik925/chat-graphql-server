@@ -1,0 +1,36 @@
+{
+  "name": "chat-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "prod": "tsc && node ./build/index.js",
+    "generate": "graphql-codegen init",
+    "genSchema": "graphql-codegen --config codegen.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/cli": "^1.8.1",
+    "@graphql-codegen/typescript": "^1.7.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/lodash": "^4.14.138",
+    "@types/uuid": "^3.4.5",
+    "apollo-server": "^2.9.3",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.5.8",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "ts-node-dev": "^1.0.0-pre.42",
+    "typescript": "^3.6.3",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/typescript": "1.8.1",
+    "@graphql-codegen/typescript-resolvers": "1.8.1",
+    "@graphql-codegen/introspection": "1.8.1"
+  }
+}
