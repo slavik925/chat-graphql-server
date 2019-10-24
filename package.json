@@ -7,10 +7,9 @@
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./index.ts",
     "prod": "tsc && node ./build/index.js",
-    "generate": "graphql-codegen init",
     "genSchema": "graphql-codegen --config codegen.yml"
   },
-  "author": "",
+  "author": "Viacheslav Horodovych",
   "license": "ISC",
   "dependencies": {
     "@graphql-codegen/cli": "^1.8.1",
