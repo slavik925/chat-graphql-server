@@ -19,5 +19,6 @@ If you are interested in some new frontend framework you could try to write an a
 2. Install dependencies ```npm install```
 3. The server is ready on port **:4000**
 
-You can read in my blog how I use it:
+#### Article explains how I'm using it: 
+
 https://outofmemory.dev/building-chat-graphql/
