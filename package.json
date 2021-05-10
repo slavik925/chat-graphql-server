@@ -22,7 +22,7 @@
     "bcryptjs": "^2.4.3",
     "graphql": "^14.5.8",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "ts-node-dev": "^1.0.0-pre.42",
     "typescript": "^3.6.3",
     "uuid": "^3.3.3"
