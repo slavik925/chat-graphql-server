@@ -21,7 +21,7 @@
     "apollo-server": "^2.9.3",
     "bcryptjs": "^2.4.3",
     "graphql": "^14.5.8",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "ts-node-dev": "^1.0.0-pre.42",
     "typescript": "^3.6.3",
